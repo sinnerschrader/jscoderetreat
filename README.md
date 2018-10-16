@@ -1,0 +1,95 @@
+# Welcome to our 2018 jscoderetreat
+
+## Rules
+
+- Be nice
+- Code conways game of life all day long
+- Practice coding in a TDD style
+
+## Game of life
+
+The universe of the Game of Life is an infinite, two-dimensional orthogonal grid of square cells, each of which is in one of two possible states, alive or dead, (or populated and unpopulated, respectively). Every cell interacts with its eight neighbours, which are the cells that are horizontally, vertically, or diagonally adjacent. At each step in time, the following transitions occur:
+
+- Any live cell with fewer than two live neighbors dies, as if by underpopulation.
+- Any live cell with two or three live neighbors lives on to the - next generation.
+- Any live cell with more than three live neighbors dies, as if - by overpopulation.
+- Any dead cell with exactly three live neighbors becomes a live cell, as if by reproduction.
+
+The initial pattern constitutes the seed of the system. The first generation is created by applying the above rules simultaneously to every cell in the seed; births and deaths occur simultaneously, and the discrete moment at which this happens is sometimes called a tick. Each generation is a pure function of the preceding one. The rules continue to be applied repeatedly to create further generations.
+
+https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life
+https://de.wikipedia.org/wiki/Conways_Spiel_des_Lebens
+
+Seeds:
+https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life#Examples_of_patterns
+
+## Getting Started
+
+### Install node.js
+
+- Recommended: nvm  
+  https://github.com/creationix/nvm#installation
+
+### Clone start setup
+
+https://github.com/sinnerschrader/jscoderetreat.git
+
+### Ready to go
+
+Open two terminal windows.
+
+```shell
+$ yarn
+$ yarn start
+```
+
+```shell
+$ yarn test
+```
+
+## Challenges / Constraints
+
+1. Get used to the game of life (15 minutes)
+1. Pairing by "ping pong" (30 minutes)
+
+   - Write a test that fails
+   - Pass the keyboard
+   - Implement the failing test (and only it!)
+   - Start over
+
+1. Keep code small (30 minutes)
+
+   - Only 4 lines per function/method
+
+1. Pairing by "navigator driver" (30 minutes)
+   https://gist.github.com/jordanpoulton/607a8854673d9f22c696
+
+   - One person is driver
+
+     - Owns the keyboard
+     - Listens to the navigator
+     - Suggests improvements
+     - Accepts the navigator has the last word
+
+   - One person is navigator
+
+     - Dictates what is written
+     - Explains why
+     - Checks and helps with syntax/logic errors
+     - Outlines the global tasks
+     - Steers the communication
+
+   **Swap after 15 minutes!**
+
+1. Find the Loophole (30 minutes)
+
+   - One person write the test
+   - The other one tries to make just the test green  
+      **This allows to intentionally implement the wrong algorithm!**
+
+   **Swap after 15 minutes!**
+
+1. The hard way (30 minutes)
+
+   - No loops are allowed (no for/while/...)
+   - If thats too hard just use while loops
