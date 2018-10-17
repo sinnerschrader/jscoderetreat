@@ -49,7 +49,7 @@ $ yarn test
 
 ## Challenges / Constraints
 
-1. Get used to the game of life (15 minutes)
+1. Get used to the game of life (30 minutes)
 1. Pairing by "ping pong" (30 minutes)
 
    - Write a test that fails
@@ -95,3 +95,8 @@ $ yarn test
 
    - No loops are allowed (no for/while/...)
    - If thats too hard just use while loops
+
+1. Start over (30 minutes)
+
+   - Same mode as in the first session
+   - Try to remember everything you have learned so far
