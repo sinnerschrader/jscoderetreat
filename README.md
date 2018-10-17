@@ -60,6 +60,8 @@ $ yarn test
 1. Keep code small (30 minutes)
 
    - Only 4 lines per function/method
+   - Make your universe endless in any direction
+     (no width and height constraint)
 
 1. Pairing by "navigator driver" (30 minutes)
    https://gist.github.com/jordanpoulton/607a8854673d9f22c696
