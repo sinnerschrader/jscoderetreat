@@ -4,12 +4,12 @@ export class Canvas {
     this.heigth = 0;
     const canvas = document.querySelector("#app");
     if (!canvas) {
-      throw new Error("No canvas found");
+      return;
     }
     this.canvas = canvas;
     const context = this.canvas.getContext("2d");
     if (!context) {
-      throw new Error("No 2d context available");
+      return;
     }
     this.context = context;
   }
@@ -20,6 +20,9 @@ export class Canvas {
   }
 
   paint(x, y, alive) {
+    if (!this.canvas || !this.context) {
+      return;
+    }
     const ctx = this.context;
     const width = 600 / this.width;
     const height = 600 / this.heigth;
