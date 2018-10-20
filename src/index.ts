@@ -1,7 +1,7 @@
 console.log("Hello JS CodeRetreat");
 
 // // Example:
-// import { Canvas } from './canvas';
+// import { Canvas } from "./canvas";
 
 // // Create a canvas
 // const canvas = new Canvas();
