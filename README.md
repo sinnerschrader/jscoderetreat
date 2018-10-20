@@ -30,6 +30,12 @@ https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life#Examples_of_patterns
 - Recommended: nvm  
   https://github.com/creationix/nvm#installation
 
+- Install yarn
+
+```shell
+$ npm install -g yarn
+```
+
 ### Clone start setup
 
 https://github.com/sinnerschrader/jscoderetreat.git
