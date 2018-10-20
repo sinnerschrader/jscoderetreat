@@ -1,11 +1,8 @@
 export class Canvas {
-  private canvas: HTMLCanvasElement;
-  private context: CanvasRenderingContext2D;
-  private width = 0;
-  private heigth = 0;
-
   constructor() {
-    const canvas = document.querySelector<HTMLCanvasElement>("#app");
+    this.width = 0;
+    this.heigth = 0;
+    const canvas = document.querySelector("#app");
     if (!canvas) {
       throw new Error("No canvas found");
     }
@@ -17,12 +14,12 @@ export class Canvas {
     this.context = context;
   }
 
-  public init(width: number, height: number): void {
+  init(width, height) {
     this.width = width;
     this.heigth = height;
   }
 
-  public paint(x: number, y: number, alive: boolean): void {
+  paint(x, y, alive) {
     const ctx = this.context;
     const width = 600 / this.width;
     const height = 600 / this.heigth;
