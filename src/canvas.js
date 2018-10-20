@@ -27,7 +27,7 @@ export class Canvas {
     const width = 600 / this.width;
     const height = 600 / this.heigth;
 
-    ctx.fillStyle = "#000";
+    ctx.fillStyle = alive ? "#000" : "#fff";
     ctx.fillRect(x * width, y * height, width, height);
   }
 }
