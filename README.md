@@ -12,7 +12,8 @@ Coderetretas focus on a simple, recurring programming task: Implement "Game of L
 
 * [Game of Life Rules](./GAME-OF-LIFE.md)
 * [Constraints](./CONSTRAINTS.md)
-* [Code of Conduct](./CODE-OF-CONDUCT.md)
+
+All participants are required to agree with the [Berlin code of conduct ](http://berlincodeofconduct.org/). We invite all of you to help us create safe and positive experiences for everyone.
 
 ## Getting Started
   
