@@ -28,8 +28,8 @@ Setup
 
 1. Clone repo https://github.com/sinnerschrader/jscoderetreat.git
 2. Change dir to the 'jscoderetreat' folder
-3. npm install  
-4. npm test
+3. npm install - installs all dependencies. Alternatively use yarn for that 
+4. npm test - runs test framework. Alternatively use yarn for that
 
 Test 
 
@@ -40,6 +40,6 @@ npm test
 Display a staring point for a visualization 
 
 ```shell
-npm test 
+npm start 
 ```
 
