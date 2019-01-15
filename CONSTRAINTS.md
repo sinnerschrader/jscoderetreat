@@ -27,16 +27,53 @@ Steps
 
 ## A Developer in Test
 
+
 * Don’t delete the code from the previous session
 * Delete only the existing tests
 * Swap the code in-between pairs
-
 * Your job now is to write software that tests the code.
 * You are not allowed to change the existing code
 
+## Object Calisthenics
+
+Use as many as you feel comfortable. The more used, the better for the exercise.
+
+[see](https://williamdurand.fr/2013/06/03/object-calisthenics/)
+
+1. Use only one level of indentation per method
+2. Don’t use the else keyword
+3. Wrap all primitives and strings
+4. Use only one dot per line
+5. Don’t abbreviate
+6. Keep all entities small
+7. Don’t use any classes with more than two instance variables
+8. Use first-class collections
+9. Don’t use any getters / setters / properties
+
+## Silent Pairing-Programming
+
+1. You are not allowed to talk with your pair
+2. No electronic or physical writing is allowed
+3. Any communication will be made through code
+
+
+## Single Responsibility Principle
+
+> The single responsibility principle is a computer programming principle that states that every module or class should have responsibility over a single part of the functionality provided by the software, and that responsibility should be entirely encapsulated by the class
+
+* Exactly one assert per test
+* Test one behaviour per test
+* No util.js
+
+It helps if you stay away from 
+
+* No conditionals: if, switch, etc
+* No try/catch
+
+
 ## Conways Game of Life Hex
 
-Conway’s Game of Life - Hex
+¡[hexagoneal game of life](https://camo.githubusercontent.com/18e1274818f4fbdafd237853f8f072741750be6f/687474703a2f2f692e696d6775722e636f6d2f4a4e375a477a6f2e706e67)
 
 Neighbors
 
@@ -57,3 +94,6 @@ These rules are applied simultaneously on tick
 2. A live cell having 2.0 - 3.3 lives on
 3. A live cell having more than 3.3 dies
 4. A dead cell having 2.3 - 2.9 becomes alive
+
+[more](https://alexbolboaca.ro/coderetreat/the-coderetreat-problem-is-not-the-problem) 
+
