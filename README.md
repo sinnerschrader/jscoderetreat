@@ -1,10 +1,11 @@
 # Welcome to our 2018 jscoderetreat
 
-## Rules
+> Coderetreat is a day-long, intensive practice event, focusing on the fundamentals of software development and design. By providing developers the opportunity to take part in focused practice, away from the pressures of 'getting things done', the coderetreat format has proven itself to be a highly effective means of skill improvement. Practicing the basic principles of modular and object-oriented design, developers can improve their ability to write code that minimizes the cost of change over time.  . from the [global day of coderetreat website](https://www.coderetreat.org/pages/about/)
 
-- Be nice
-- Code conways game of life all day long
-- Practice coding in a TDD style
+The Javascript Version of the coderetreat was created to improve communities abilities in one specific langugae and its variants (Typescript, coffeescript, es5 etc) which has turned to a lingua franca of the web over the last years. With the advent of modern Javascript versions (es6, Typescripts) there is even more need to upgrade out knowhow, incorporate safe coding practices and improve our skills in general. 
+
+The Main focus is about 2 techniques: Pairprogramming, where all code is developed with a partner and Test Driven Development, where you try to test your code as you write it.
+
 
 ## Game of life
 
@@ -16,6 +17,14 @@ The universe of the Game of Life is an infinite, two-dimensional orthogonal grid
 - Any dead cell with exactly three live neighbors becomes a live cell, as if by reproduction.
 
 The initial pattern constitutes the seed of the system. The first generation is created by applying the above rules simultaneously to every cell in the seed; births and deaths occur simultaneously, and the discrete moment at which this happens is sometimes called a tick. Each generation is a pure function of the preceding one. The rules continue to be applied repeatedly to create further generations.
+
+
+## Rules
+
+- Be nice
+- Code conways game of life all day long
+- Practice coding in a TDD style
+
 
 https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life
 https://de.wikipedia.org/wiki/Conways_Spiel_des_Lebens
