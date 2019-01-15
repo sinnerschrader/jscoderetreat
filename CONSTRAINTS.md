@@ -1,5 +1,6 @@
 # Constraints 
 
+* [Beginner's Mind](#beginners-mind)
 * [TDD with Refactoring](#tdd-with-refactoring)
 * [Tell Don't Ask](#tell-dont-ask)
 * [A Developer in Test](#a-developer-in-test)
@@ -7,6 +8,22 @@
 * [Silent Pairing](#silent-pairing)
 * [Single Responsibility Principle](#single-responsibility-principle)
 * [Conways Game of Life Hex](#conways-game-of-life-hex)
+* [Only Regex](#only-regex)
+
+## Beginner's Mind  
+
+Good Starter. Change roles when feeling appropriate. Focus on making really small assumptions about code and test them. 
+
+* Two Roles: Driver & Navigator
+* Driver = the person who writes the code
+* Navigator = helps the driver for code strategy
+
+Rules
+
+1. The driver writes code.
+2. The navigator keeps asking questions like a beginner
+3. (why did you write this method, do you need this, how will this work, etc)
+4. The driver needs to explain all the decisions
 
 ## TDD with Refactoring 
 
@@ -34,7 +51,6 @@ Steps
 * Each class computes the output using only its internal state
 
 ## A Developer in Test
-
 
 * Don’t delete the code from the previous session
 * Delete only the existing tests
@@ -104,4 +120,8 @@ These rules are applied simultaneously on tick
 4. A dead cell having 2.3 - 2.9 becomes alive
 
 [more](https://alexbolboaca.ro/coderetreat/the-coderetreat-problem-is-not-the-problem) 
+
+## Only Regex 
+
+Use only regular expressions for the algorithms. The only other type of coding allowed is that to support regular expressions.
 
