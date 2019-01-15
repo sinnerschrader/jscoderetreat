@@ -14,7 +14,7 @@ Coderetretas focus on a simple, recurring programming task: Implement "Game of L
 * [Constraints](./CONSTRAINTS.md)
 
 ## Getting Started
-
+  
 Requirements:
 
 * Node.js (versions 9.x-10.x)
