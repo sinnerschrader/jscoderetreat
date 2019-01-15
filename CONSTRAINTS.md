@@ -1,5 +1,13 @@
 # Constraints 
 
+* [TDD with Refactoring](#tdd-with-refactoring)
+* [Tell Don't Ask](#tell-dont-ask)
+* [A Developer in Test](#a-developer-in-test)
+* [Object Calisthenics](#object-calisthenics)
+* [Silent Pairing](#silent-pairing)
+* [Single Responsibility Principle](#single-responsibility-principle)
+* [Conways Game of Life Hex](#conways-game-of-life-hex)
+
 ## TDD with Refactoring 
 
 This is a good introduction constraint as it enforces a natural keyboard change and shows the more skilled partners how to moderate a not so well skilled Driver to code. The setup is well suited for TDD and participants should be encouraged NOT to finish but to experiment. 
@@ -50,7 +58,7 @@ Use as many as you feel comfortable. The more used, the better for the exercise.
 8. Use first-class collections
 9. Don’t use any getters / setters / properties
 
-## Silent Pairing-Programming
+## Silent Pairing
 
 1. You are not allowed to talk with your pair
 2. No electronic or physical writing is allowed
