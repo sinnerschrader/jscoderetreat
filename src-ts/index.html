@@ -11,22 +11,12 @@
             border: 1px solid black;
         }
     </style>
-    <link rel="modulepreload" href="./index.js">
 </head>
 
 <body>
-    <script type="module">
-        // or an inline script
-        import {
-            echo, 
-            paintCanvas
-        } from './index.js';
-        echo('xx');
-        paintCanvas(document)
-    </script>
     <h1>Hello JS CodeRetreat</h1>
     <canvas id="app" width="600" height="600"></canvas>
-
+    <script src="./index.ts"></script>
 </body>
 
 </html>
